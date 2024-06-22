@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+img{
+	color: white;
+}
+.menu{
+	display: flex;
+	align-items: center;
+}
+.iTash{
+	font-size: 35px;
+}
+@media (max-width: 992px)
+{
+	.car{
+		display: none;
+	}
+	.asos1{
+	min-width: 95%;
+	padding-top: 40px;
+}
+	
+}
+
+.header{
+	flex: 1;
+}
+.containerr{
+	height: 100dvh;
+	display: flex;
+	flex-direction: column;
+
+}
+.asos{
+	flex: 10;
+	overflow-y: auto;
+	word-wrap: break-word;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.asos1{
+	max-width: 60%;
+	padding-top: 40px;
+	
+}
+
+
+.img{
+	width: 300px;
+}
+.h5{
+	margin-top: 40px;
+}
+.span{
+	border: 1px solid #d2d0cc;
+	border-radius: 50%;
+	padding: 0 6px 0 6px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+.gals{
+	background: #f5f4f2;
+	margin: 30px 0 30px 0;
+	border-radius: 30px;
+	
+	display: flex;
+	flex-direction: column;
+
+}
+.galsimg{
+	width: 100%;
+}
+.galsdev{
+	flex: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 30px 0 30px;
+}
+.galstext{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+#myCarousel {
+  --f-carousel-slide-height: 60%;
+  --f-carousel-spacing: 10px; 
+}
+.CARUS{
+	padding: 30px 0 20px 0;
+	background: #f5f4f2;
+	border-radius: 30px;
+}
+.curusimg{
+	height: 400px;
+
+}
+.curus1{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+footer{
+	flex: 1;
+	border-radius: 30px 30px 0 0;
+	background: black;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+
+}
+.icons{
+	height: 50px;
+}

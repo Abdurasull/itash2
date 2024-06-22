@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>proba</title>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+/>
+<link rel="stylesheet" type="text/css" href="itashTaxi.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+
+</head>
+<body>
+
+<div class="f-carousel" id="myCarousel">
+  <div class="f-carousel__viewport">
+    <div class="f-carousel__track">
+      <div class="f-carousel__slide">
+      	<a href="img/2.jpg" data-fancybox data-caption="Single image">
+		  <img src="img/2.jpg" class="img" />
+		  <p>hkjhcvjhxjvhbxkjhcv</p>
+		</a>
+
+      </div>
+      <div class="f-carousel__slide">
+      	<a href="img/3.jpg" data-fancybox data-caption="Single image">
+		  <img src="img/3.jpg" class="img" />
+		  <p>1111111111111</p>
+		</a>
+
+      </div>
+      <div class="f-carousel__slide">
+      	<a href="img/4.jpg" data-fancybox data-caption="Single image">
+		  <img src="img/4.jpg" class="img" />
+		  <p>jyhfgcjhfgcjh</p>
+		</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+	
+const container = document.getElementById("myCarousel");
+const options = { infinite: false };
+
+new Carousel(container, options);
+</script>
+
+</body>
+</html>
