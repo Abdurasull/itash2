@@ -27,7 +27,7 @@ img{
 }
 
 .header{
-	flex: 1;
+	padding: 5px;
 }
 .containerr{
 	height: 100dvh;
