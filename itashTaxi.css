@@ -36,7 +36,7 @@ img{
 
 }
 .asos{
-	flex: 10;
+	flex: 12;
 	overflow-y: auto;
 	word-wrap: break-word;
 	display: flex;
